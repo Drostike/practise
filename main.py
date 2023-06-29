@@ -737,7 +737,6 @@ while running:
                 enter.set_visible(False)
                 usloviya_car = UsloviyaStrahovki(int(input1.get_text()), int(input4.get_text()), int(input2.get_text()),
                                                  int(input3.get_text()), date=mounth_count)
-                print(usloviya_car.return_max() / usloviya_car.return_vznos() * 3)
                 input1.set_text("")
                 input2.set_text("")
                 input3.set_text("")
